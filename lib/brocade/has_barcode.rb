@@ -93,11 +93,11 @@ module Brocade
     end
 
     def barcode_url
-      "/system/barcodes/#{klass}/#{partitioned_id}/#{symbology}.png"
+      "system/barcodes/#{klass}/#{partitioned_id}/#{symbology}.png"
     end
 
     def barcode_path
-      "#{::Rails.root}/app/assets/system/barcodes/#{klass}/#{partitioned_id}/#{symbology}.png"
+      "#{::Rails.root}/app/assets/images/system/barcodes/#{klass}/#{partitioned_id}/#{symbology}.png"
     end
 
     private
