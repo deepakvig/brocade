@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'barby',      '~> 0.5'
   s.add_dependency 'chunky_png', '~> 1.2'
-  s.add_dependency 'active_support', '~> 4'
+  s.add_dependency 'activesupport', '~> 4'
   s.add_dependency 'i18n'
   s.add_development_dependency 'rake', '~> 10'
-  s.add_development_dependency 'minitest', '~> 5'
+  s.add_development_dependency 'minitest', '~> 4'
 end
 
